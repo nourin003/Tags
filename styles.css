@@ -3,7 +3,7 @@
     padding: 0px;
 }
 .menu-container{
-    background-color: #3d3c3c;
+    background-color: #575656;
     padding: 20px;
     color: white;
     list-style: none;
@@ -25,4 +25,36 @@
 }
 .item:hover{
     color: rgb(242, 191, 129);
+}
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+   /* border: 2px solid black;*/
+    color: white;
+    background-image: url("./digital-products-b8/images/background.png"), linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.button{
+    padding: 10px 20px;
+   background-color: rgb(199, 77, 33);
+   border-radius: 10px;
+  border: none;
+   color:white;
 }
