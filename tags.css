@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.text{
+    color: #757575;
+   /* cursor: pointer;*/
+   cursor: url("images/smiling-face-with-smiling-eyes_1f60a.png"),auto;
+}
