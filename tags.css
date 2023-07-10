@@ -2,8 +2,37 @@
     margin: 0px;
     padding: 0px;
 }
+
+/*Hello world*/
 .text{
     color: #757575;
    /* cursor: pointer;*/
    cursor: url("images/smiling-face-with-smiling-eyes_1f60a.png"),auto;
 }
+
+/*flex*/
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:row-reverse ;
+    height: 500px;
+    border: 2px solid gray;
+}
+
+
+.box{
+    padding: 20px;
+    background-color: #757575;
+    width:110px;
+    height: 110px;
+}
+.box2{
+    background-color: antiquewhite;
+}
+.box3{
+    background-color:beige;
+}
+
+
+
